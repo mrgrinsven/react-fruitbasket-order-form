@@ -4,7 +4,7 @@ import './FormField.css';
 const FormField = ({type, id, name, text, value, changeHandler, min, max}) => {
     return (
         <div
-            className={'field-container'}
+            className='field-container'
         >
             <label
                 htmlFor={{id}}
@@ -13,7 +13,7 @@ const FormField = ({type, id, name, text, value, changeHandler, min, max}) => {
             </label>
 
             <input
-                className={'text-field-input'}
+                className='text-field-input'
                 type={type}
                 id={id}
                 name={name}

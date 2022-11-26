@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Fruit from './components/Fruit/Fruit';
-import Form from './components/Form/Form';
+import Fruit from './components/fruit/Fruit';
+import Form from './components/form/Form';
 
 
 
@@ -11,20 +11,20 @@ function App() {
             <main>
                 <h1>Fruitmand bezorgservice</h1>
                 <Fruit
-                    emoji={'🍓'}
-                    fruitName={'aardbeien'}
+                    emoji='🍓'
+                    fruitName='aardbeien'
                 />
                 <Fruit
-                    emoji={'🍌'}
-                    fruitName={'bananen'}
+                    emoji='🍌'
+                    fruitName='bananen'
                 />
                 <Fruit
-                    emoji={'🍏'}
-                    fruitName={'appels'}
+                    emoji='🍏'
+                    fruitName='appels'
                 />
                 <Fruit
-                    emoji={'🥝'}
-                    fruitName={'kiwi\'s'}
+                    emoji='🥝'
+                    fruitName="kiwi's"
                 />
                 <Fruit
                     reset={true}

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Button from "../Button/Button";
+import Button from "../button/Button";
 import './Fruit.css';
 
 
@@ -27,10 +27,10 @@ const Fruit = ({fruitName, emoji, reset}) => {
 
     if(reset) {
         return (
-            <div className="reset-fruit">
+            <div className='reset-fruit'>
                 <Button
-                    id={'reset-trigger'}
-                    type={'button'}
+                    id='reset-trigger'
+                    type='button'
                 >
                     Reset
                 </Button>
@@ -39,11 +39,11 @@ const Fruit = ({fruitName, emoji, reset}) => {
     }
 
     return (
-        <div className="fruit">
+        <div className='fruit'>
             <p>{emoji}</p>
             <p>{fruitName}</p>
             <Button
-                type={'button'}
+                type='button'
                 className={count === 0 ? 'subtract' : null}
                 clickHandler={subtractOne}
             >
@@ -53,7 +53,7 @@ const Fruit = ({fruitName, emoji, reset}) => {
             <p> <strong>{count}</strong></p>
 
             <Button
-                type={'button'}
+                type='button'
                 className={count > 1 ? 'add' : null}
                 clickHandler={addOne}
             >
