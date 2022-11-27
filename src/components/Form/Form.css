@@ -1,0 +1,70 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+label {
+    margin: 10px;
+}
+
+#delivery-frequency-select-box {
+    margin: 10px;
+}
+
+#message-field {
+    width: 100%;
+    margin: 10px;
+}
+
+#condition-checkbox {
+    margin-left: 10px;
+}
+
+#submit-button {
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.condition-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.condition-text {
+    display: inline-block;
+    text-transform: none;
+    font-size: 12px;
+}
+
+.condition-text:first-letter {
+    text-transform: uppercase;
+}
+
+.period-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.period-radio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.period-radio-buttons label {
+    font-size: 10px;
+
+}
+
+.period-radio-buttons-evening label::first-letter {
+    text-transform: lowercase;
+}
+
+.period-radio-buttons input {
+    margin: 0;
+}

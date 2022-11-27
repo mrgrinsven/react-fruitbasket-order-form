@@ -1,0 +1,19 @@
+.fruit {
+    margin: 5px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 60px;
+    width: 300px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.reset-fruit {
+    flex-basis: 30px;
+    width: 300px;
+}
